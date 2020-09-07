@@ -4,10 +4,10 @@
     <sensor name="Elliptic Proximity" reader="hexagon" sensor_type="8" type="4" subtype="401" audio_notify="ultrasound-proximity" debug="true">
       <ranges>
         <near value="0.0" limit="3.0"></near>
-        <far value="5.000030" limit="4.0"></far>
+        <far value="5.0" limit="4.0"></far>
       </ranges>
     </sensor>
-    <sensor name="Elliptic CoverDetection ON-CHANGE NON-WAKE-UP" reader="hexagon" sensor_type="65555" type="4" subtype="401" audio_notify="ultrasound-cover1" debug="true">
+    <sensor name="Elliptic CoverDetection ON-CHANGE" reader="hexagon" sensor_type="65555" type="4" subtype="401" audio_notify="ultrasound-cover1" debug="true">
       <ranges>
         <near value="0.0" limit="3.0"></near>
         <far value="5.000030" limit="4.0"></far>
