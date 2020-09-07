@@ -71,6 +71,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/phoenix/proprietary/vendor/etc/qdcm_calib_data_xiaomi_37_02_0a_video_mode_dsc_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_xiaomi_37_02_0a_video_mode_dsc_dsi_panel.xml \
     vendor/xiaomi/phoenix/proprietary/vendor/etc/qdcm_calib_data_xiaomi_37_02_0b_video_mode_dsc_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_xiaomi_37_02_0b_video_mode_dsc_dsi_panel.xml \
     vendor/xiaomi/phoenix/proprietary/vendor/etc/qdcm_calib_data_xiaomi_42_02_0b_video_mode_dsc_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_xiaomi_42_02_0b_video_mode_dsc_dsi_panel.xml \
+    vendor/xiaomi/phoenix/proprietary/vendor/etc/screen_light.xml:$(TARGET_COPY_OUT_VENDOR)/etc/screen_light.xml \
     vendor/xiaomi/phoenix/proprietary/vendor/etc/sdr_config.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/sdr_config.cfg \
     vendor/xiaomi/phoenix/proprietary/vendor/etc/sensors/config/adux1050_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/adux1050_0.json \
     vendor/xiaomi/phoenix/proprietary/vendor/etc/sensors/config/ak991x_dri_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ak991x_dri_0.json \
@@ -180,7 +181,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/phoenix/proprietary/vendor/lib64/camera/com.qti.sensormodule.phoenix_sunny_s5k3t2.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.phoenix_sunny_s5k3t2.bin \
     vendor/xiaomi/phoenix/proprietary/vendor/lib64/camera/com.qti.tuned.default.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.default.bin \
     vendor/xiaomi/phoenix/proprietary/vendor/lib64/camera/com.qti.tuned.phoenix_ofilm_gc02m1_depth.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.phoenix_ofilm_gc02m1_depth.bin \
+    vendor/xiaomi/phoenix/proprietary/vendor/lib64/camera/com.qti.tuned.phoenix_ofilm_gc02m1_depth_mono.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.phoenix_ofilm_gc02m1_depth_mono.bin \
     vendor/xiaomi/phoenix/proprietary/vendor/lib64/camera/com.qti.tuned.phoenix_ofilm_gc02m1_front.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.phoenix_ofilm_gc02m1_front.bin \
+    vendor/xiaomi/phoenix/proprietary/vendor/lib64/camera/com.qti.tuned.phoenix_ofilm_gc02m1_front_mono.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.phoenix_ofilm_gc02m1_front_mono.bin \
     vendor/xiaomi/phoenix/proprietary/vendor/lib64/camera/com.qti.tuned.phoenix_ofilm_gc02m1_macro.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.phoenix_ofilm_gc02m1_macro.bin \
     vendor/xiaomi/phoenix/proprietary/vendor/lib64/camera/com.qti.tuned.phoenix_ofilm_imx686.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.phoenix_ofilm_imx686.bin \
     vendor/xiaomi/phoenix/proprietary/vendor/lib64/camera/com.qti.tuned.phoenix_ofilm_ov8856.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.phoenix_ofilm_ov8856.bin \
@@ -221,6 +224,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/phoenix/proprietary/vendor/lib64/camera/components/com.qti.node.memcpy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.memcpy.so \
     vendor/xiaomi/phoenix/proprietary/vendor/lib64/camera/components/com.qti.node.mimovie.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.mimovie.so \
     vendor/xiaomi/phoenix/proprietary/vendor/lib64/camera/components/com.qti.node.photosolid.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.photosolid.so \
+    vendor/xiaomi/phoenix/proprietary/vendor/lib64/camera/components/com.qti.node.remosaic.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.remosaic.so \
     vendor/xiaomi/phoenix/proprietary/vendor/lib64/camera/components/com.qti.node.stich.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.stich.so \
     vendor/xiaomi/phoenix/proprietary/vendor/lib64/camera/components/com.qti.node.swregistration.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.swregistration.so \
     vendor/xiaomi/phoenix/proprietary/vendor/lib64/camera/components/com.qti.node.watermark.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.watermark.so \
@@ -321,6 +325,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/phoenix/proprietary/vendor/lib64/libhfp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhfp.so \
     vendor/xiaomi/phoenix/proprietary/vendor/lib64/libhvx_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhvx_interface.so \
     vendor/xiaomi/phoenix/proprietary/vendor/lib64/libmegface.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmegface.so \
+    vendor/xiaomi/phoenix/proprietary/vendor/lib64/libmialgo_basic.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmialgo_basic.so \
     vendor/xiaomi/phoenix/proprietary/vendor/lib64/libmialgo_fs.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmialgo_fs.so \
     vendor/xiaomi/phoenix/proprietary/vendor/lib64/libmialgo_rfs.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmialgo_rfs.so \
     vendor/xiaomi/phoenix/proprietary/vendor/lib64/libmialgo_sd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmialgo_sd.so \
@@ -333,11 +338,14 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/phoenix/proprietary/vendor/lib64/libnanopb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnanopb.so \
     vendor/xiaomi/phoenix/proprietary/vendor/lib64/libnotifyaudiohal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnotifyaudiohal.so \
     vendor/xiaomi/phoenix/proprietary/vendor/lib64/libnpu.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnpu.so \
+    vendor/xiaomi/phoenix/proprietary/vendor/lib64/libremosaic_daemon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libremosaic_daemon.so \
+    vendor/xiaomi/phoenix/proprietary/vendor/lib64/libremosaiclib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libremosaiclib.so \
     vendor/xiaomi/phoenix/proprietary/vendor/lib64/libsdk_sr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdk_sr.so \
     vendor/xiaomi/phoenix/proprietary/vendor/lib64/libsndmonitor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsndmonitor.so \
     vendor/xiaomi/phoenix/proprietary/vendor/lib64/libsns_device_mode_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsns_device_mode_stub.so \
     vendor/xiaomi/phoenix/proprietary/vendor/lib64/libsns_fastRPC_util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsns_fastRPC_util.so \
     vendor/xiaomi/phoenix/proprietary/vendor/lib64/libsns_low_lat_stream_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsns_low_lat_stream_stub.so \
+    vendor/xiaomi/phoenix/proprietary/vendor/lib64/libsns_registry_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsns_registry_skel.so \
     vendor/xiaomi/phoenix/proprietary/vendor/lib64/libsnsapi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsnsapi.so \
     vendor/xiaomi/phoenix/proprietary/vendor/lib64/libsnsdiaglog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsnsdiaglog.so \
     vendor/xiaomi/phoenix/proprietary/vendor/lib64/libspkrprot.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libspkrprot.so \
@@ -352,6 +360,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/phoenix/proprietary/vendor/lib64/libvidhance.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvidhance.so \
     vendor/xiaomi/phoenix/proprietary/vendor/lib64/libxmi_high_dynamic_range.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxmi_high_dynamic_range.so \
     vendor/xiaomi/phoenix/proprietary/vendor/lib64/libxml2_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxml2_vendor.so \
+    vendor/xiaomi/phoenix/proprietary/vendor/lib64/mibokeh_712_opencl.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/mibokeh_712_opencl.bin \
     vendor/xiaomi/phoenix/proprietary/vendor/lib64/sensors.elliptic.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.elliptic.so \
     vendor/xiaomi/phoenix/proprietary/vendor/lib64/sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.ssc.so \
     vendor/xiaomi/phoenix/proprietary/vendor/lib64/sensors.touch.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.touch.so \
