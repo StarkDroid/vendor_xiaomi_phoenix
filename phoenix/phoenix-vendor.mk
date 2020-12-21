@@ -19,7 +19,6 @@ PRODUCT_SOONG_NAMESPACES += \
 
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/phoenix/proprietary/bin/cameraserver:$(TARGET_COPY_OUT_SYSTEM)/bin/cameraserver \
-    vendor/xiaomi/phoenix/proprietary/vendor/etc/init/init.mi_thermald.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.mi_thermald.rc \
     vendor/xiaomi/phoenix/proprietary/lib/libcameraservice.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcameraservice.so \
     vendor/xiaomi/phoenix/proprietary/system_ext/lib/vendor.qti.hardware.camera.device@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.camera.device@1.0.so \
     vendor/xiaomi/phoenix/proprietary/system_ext/lib/vendor.qti.hardware.camera.device@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.camera.device@2.0.so \
@@ -74,6 +73,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/phoenix/proprietary/vendor/etc/elliptic_sensor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/elliptic_sensor.xml \
     vendor/xiaomi/phoenix/proprietary/vendor/etc/hdr_config.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/hdr_config.cfg \
     vendor/xiaomi/phoenix/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service-qti.rc \
+    vendor/xiaomi/phoenix/proprietary/vendor/etc/init/init.mi_thermald.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.mi_thermald.rc \
     vendor/xiaomi/phoenix/proprietary/vendor/etc/qdcm_calib_data_xiaomi_37_02_0a_video_mode_dsc_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_xiaomi_37_02_0a_video_mode_dsc_dsi_panel.xml \
     vendor/xiaomi/phoenix/proprietary/vendor/etc/qdcm_calib_data_xiaomi_37_02_0b_video_mode_dsc_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_xiaomi_37_02_0b_video_mode_dsc_dsi_panel.xml \
     vendor/xiaomi/phoenix/proprietary/vendor/etc/qdcm_calib_data_xiaomi_42_02_0b_video_mode_dsc_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_xiaomi_42_02_0b_video_mode_dsc_dsi_panel.xml \
