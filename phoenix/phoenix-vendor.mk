@@ -119,7 +119,5 @@ PRODUCT_PACKAGES += \
     libantradio \
     QtiTelephonyService \
     CarrierSettings \
-    HotwordEnrollmentOKGoogleHEXAGON \
-    HotwordEnrollmentXGoogleHEXAGON \
     ims \
     qcrilmsgtunnel
